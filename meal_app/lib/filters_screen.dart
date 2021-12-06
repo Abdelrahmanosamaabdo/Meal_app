@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Favourites_Screen extends StatelessWidget {
+class Filters_Screen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Favourites'),
+        title: const Text('Filters'),
         backgroundColor: Colors.black54,
       ),
       body: Container(),
