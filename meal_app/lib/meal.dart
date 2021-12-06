@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Meal {
-  final int number;
+  final String number;
   final String title;
   final String imageUrl;
   final List<String> categories;

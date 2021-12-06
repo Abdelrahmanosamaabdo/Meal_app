@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meal_app/data.dart';
-
-import './meal.dart';
+import 'package:meal_app/meal_item.dart';
 
 class Meals_Screen extends StatelessWidget {
   final String number;
@@ -9,7 +8,7 @@ class Meals_Screen extends StatelessWidget {
   final Color color;
 
   final categoryMeals = DATA_MEALS.where((meal) {
-    return meal.categories.contains('number');
+    return meal.categories.contains('7');
   }).toList();
 
   Meals_Screen(this.number, this.title, this.color);
@@ -31,12 +30,13 @@ class Meals_Screen extends StatelessWidget {
       ),
       body: ListView.builder(
         itemBuilder: (context, index) {
-          return Text(
+          return Meal_Item(
+            categoryMeals[index].number,
             categoryMeals[index].title,
-            style: TextStyle(
-              fontSize: 30,
-              color: Colors.black,
-            ),
+            categoryMeals[index].imageUrl,
+            categoryMeals[index].ingredients,
+            categoryMeals[index].steps,
+            categoryMeals[index].duration,
           );
         },
         itemCount: categoryMeals.length,

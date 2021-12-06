@@ -48,7 +48,7 @@ const DATA_CATEGORIES = const [
 
 const DATA_MEALS = const [
   Meal(
-    number: 1,
+    number: '1',
     categories: [
       '1',
       '2',
@@ -78,7 +78,7 @@ const DATA_MEALS = const [
     sugarfree: true,
   ),
   Meal(
-    number: 2,
+    number: '2',
     categories: [
       '2',
     ],
@@ -102,7 +102,7 @@ const DATA_MEALS = const [
     sugarfree: false,
   ),
   Meal(
-    number: 3,
+    number: '3',
     categories: [
       '2',
       '3',
@@ -130,7 +130,7 @@ const DATA_MEALS = const [
     sugarfree: true,
   ),
   Meal(
-    number: 4,
+    number: '4',
     categories: [
       '4',
     ],
@@ -161,7 +161,7 @@ const DATA_MEALS = const [
     sugarfree: false,
   ),
   Meal(
-    number: 5,
+    number: '5',
     categories: [
       '2',
       '5',
@@ -193,7 +193,7 @@ const DATA_MEALS = const [
     sugarfree: true,
   ),
   Meal(
-    number: 6,
+    number: '6',
     categories: [
       '6',
       '7',
@@ -225,7 +225,7 @@ const DATA_MEALS = const [
     sugarfree: false,
   ),
   Meal(
-    number: 7,
+    number: '7',
     categories: [
       '7',
     ],
@@ -252,7 +252,7 @@ const DATA_MEALS = const [
     sugarfree: false,
   ),
   Meal(
-    number: 8,
+    number: '8',
     categories: [
       '8',
     ],
@@ -281,7 +281,7 @@ const DATA_MEALS = const [
     sugarfree: true,
   ),
   Meal(
-    number: 9,
+    number: '9',
     categories: [
       '5',
     ],
@@ -326,7 +326,7 @@ const DATA_MEALS = const [
     sugarfree: false,
   ),
   Meal(
-    number: 10,
+    number: '10',
     categories: [
       '2',
       '5',

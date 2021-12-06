@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import './meals_screen.dart';
-import './category.dart';
 
 class Item extends StatelessWidget {
   final String number;
